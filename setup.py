@@ -4,21 +4,21 @@ try:
   with open("README.md","r") as fh:
     long_description = fh.read()
 except:
-  long_description = 'Touch Typing Software by Uncle Engineer'
+  long_description = 'OOP Learning Example by Botoos'
 
 setup(
-  name = 'pimsampas',         # How you named your package folder (MyLib)
-  packages = ['pimsampas'],   # Chose the same as "name"
-  version = '0.3',      # Start with a small number and increase it with every change you make
+  name = 'botooskool',         # How you named your package folder (MyLib)
+  packages = ['botooskool'],   # Chose the same as "name"
+  version = '0.1',      # Start with a small number and increase it with every change you make
   license='MIT',        # Chose a license from here: https://help.github.com/articles/licensing-a-repository
-  description = 'Touch Typing Software by Uncle Engineer',   # Give a short description about your library
+  description = 'OOP Learning Example by Botoos',   # Give a short description about your library
   long_description=long_description,
   long_description_content_type = "text/markdown",
-  author = 'Loong Wissawakorn',                   # Type in your name
-  author_email = 'loong.wissawakorn@gmail.com',      # Type in your E-Mail
-  url = 'https://github.com/UncleEngineer/pimsampas',   # Provide either the link to your github or to your website
-  download_url = 'https://github.com/UncleEngineer/pimsampas/archive/v_01.tar.gz',    # I explain this later on
-  keywords = ['Touch Typing', 'Touch', 'Uncle Engineer'],   # Keywords that define your package best
+  author = 'Botoos',                   # Type in your name
+  author_email = 'botoskiii@gmail.com',      # Type in your E-Mail
+  url = 'https://github.com/botoos/botooskool',   # Provide either the link to your github or to your website
+  download_url = 'https://github.com/botoos/botooskool/archive/v_01.tar.gz',    # I explain this later on
+  keywords = ['OOP Python', 'THAI', 'Botoos'],   # Keywords that define your package best
   classifiers=[
     'Development Status :: 3 - Alpha',      # Chose either "3 - Alpha", "4 - Beta" or "5 - Production/Stable" as the current state of your package
     'Intended Audience :: Developers',      # Define that your audience are developers
